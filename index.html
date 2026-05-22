@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stackly</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div class="preloader" id="preloader">
+    <div class="loader-content">
+      <img src="assets/logod.webp" alt="Loading...">
+      <div class="progress-bar">
+        <div class="progress"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <header class="navbar">
+    <a href="index.html" class="logo">
+      <img src="assets/logod.webp" alt="Stackly Logo">
+    </a>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+        <div class="sidebar-close" id="sidebar-close">
+          <i class="fas fa-times"></i>
+        </div>
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="404.html">ABOUT</a></li>
+        <li><a href="404.html">SERVICES</a></li>
+        <li><a href="404.html">CAREER</a></li>
+        <li><a href="404.html">CONTACT</a></li>
+      </ul>
+    </nav>
+    <div class="nav-btns">
+      <a href="404.html"><button class="login-btn">Login</button></a>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="hero-slide slide-1"></div>
+    <div class="hero-slide slide-2"></div>
+    <div class="hero-slide slide-3"></div>
+    <div class="hero-content">
+      <h1>Next-Gen IT Solution</h1>
+      <p>
+        We empower businesses with cutting-edge software development,
+        AI automation, and transformative IT strategies.
+      </p>
+      <div class="hero-btns">
+        <a href="404.html"><button class="cta">Get Started</button></a>
+        <a href="404.html"><button class="cta-secondary">Learn More</button></a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="brands reveal">
+    <div class="brands-container">
+      <p class="brands-title">TRUSTED BY INDUSTRY LEADERS</p>
+      <div class="brands-track">
+        <div class="brand-card"><i class="fab fa-google"></i> Google</div>
+        <div class="brand-card"><i class="fab fa-microsoft"></i> Microsoft</div>
+        <div class="brand-card"><i class="fab fa-amazon"></i> Amazon</div>
+        <div class="brand-card"><i class="fab fa-apple"></i> Apple</div>
+        <div class="brand-card"><i class="fab fa-meta"></i> Meta</div>
+        <div class="brand-card"><i class="fab fa-nvidia"></i> Nvidia</div>
+        <div class="brand-card"><i class="fab fa-adobe"></i> Adobe</div>
+        <div class="brand-card"><i class="fab fa-salesforce"></i> Salesforce</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="services">
+    <h2 class="section-title reveal">Our Services</h2>
+
+    <div class="grid">
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-code"></i></div>
+        <h3>Web Development</h3>
+        <p>Modern, scalable web applications built with the latest technologies.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-robot"></i></div>
+        <h3>AI Automation</h3>
+        <p>Smart solutions powered by AI to optimize your business workflows.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-icon"><i class="fas fa-cloud"></i></div>
+        <h3>Cloud Solutions</h3>
+        <p>Secure, reliable and scalable cloud infrastructure for your enterprise.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="stats reveal">
+    <div class="stats-grid">
+      <div class="stat-item">
+        <div class="stat-value">
+          <h2 class="stat-number" data-target="500">0</h2><span>+</span>
+        </div>
+        <p>Projects Delivered</p>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">
+          <h2 class="stat-number" data-target="200">0</h2><span>+</span>
+        </div>
+        <p>Global Clients</p>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">
+          <h2 class="stat-number" data-target="15">0</h2><span>+</span>
+        </div>
+        <p>Years Experience</p>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value">
+          <h2 class="stat-number" data-target="99">0</h2><span>%</span>
+        </div>
+        <p>Success Rate</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="process">
+    <h2 class="section-title reveal">How We Work</h2>
+    <div class="process-grid">
+      <div class="process-step reveal">
+        <div class="step-num">01</div>
+        <h3>Discovery</h3>
+        <p>We deep dive into your business needs and challenges to find the best solutions.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">02</div>
+        <h3>Design</h3>
+        <p>Our experts craft a tailored strategy and architecture for your specific project.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">03</div>
+        <h3>Develop</h3>
+        <p>We build your solution using state-of-the-art tech and agile methodologies.</p>
+      </div>
+      <div class="process-step reveal">
+        <div class="step-num">04</div>
+        <h3>Deploy</h3>
+        <p>Seamless launch followed by 24/7 monitoring and continuous optimization.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="featured-work reveal">
+    <div class="featured-container">
+      <div class="featured-image">
+        <img src="assets/cybero1.webp" alt="Nexus Analytics Dashboard">
+      </div>
+      <div class="featured-content">
+        <span class="tag">Best In Us</span>
+        <h2>Cybersecurity Monitoring System</h2>
+        <p>An advanced security monitoring solution developed to detect threats, prevent breaches, and ensure
+          enterprise-level protection through continuous real-time surveillance.</p>
+        <ul class="feature-list">
+          <li><i class="fas fa-check"></i> Threat detection & alerts</li>
+          <li><i class="fas fa-check"></i> End-to-end data protection</li>
+          <li><i class="fas fa-check"></i> Compliance monitoring tools</li>
+        </ul>
+        <a href="404.html" class="desktop-btn"><button class="cta-featured">Case Study</button></a>
+      </div>
+      <a href="404.html" class="mobile-btn"><button class="cta-featured">Case Study</button></a>
+    </div>
+  </section>
+
+  <section class="featured-projects">
+    <h2 class="section-title reveal">Featured Projects</h2>
+    <div class="projects-container">
+
+      <!-- Project 1 -->
+      <div class="project-card reveal left">
+        <div class="project-image">
+          <img src="assets/herob.webp" alt="AI Automation">
+          <div class="image-glow"></div>
+        </div>
+        <div class="project-info">
+          <span class="tech-tag">AI & AUTOMATION</span>
+          <h3>Cognitive Workflow Engine</h3>
+          <p>Proprietary AI system designed to automate multi-layered enterprise workflows with deep neural processing.
+          </p>
+          <div class="project-stats">
+            <div class="stat"><span class="val">92%</span><span class="lab">Automation</span></div>
+            <div class="stat"><span class="val">3x</span><span class="lab">Faster Ops</span></div>
+          </div>
+          <div class="project-footer">
+            <div class="tech-icons">
+              <i class="fas fa-brain"></i><i class="fas fa-robot"></i><i class="fas fa-microchip"></i>
+            </div>
+            <a href="404.html" class="view-project">Explore Tech <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card reveal right">
+        <div class="project-info">
+          <span class="tech-tag">CYBERSECURITY</span>
+          <h3>Sentinel Infrastructure</h3>
+          <p>Advanced zero-trust network architecture with real-time autonomous threat mitigation and data encryption.
+          </p>
+          <div class="project-stats">
+            <div class="stat"><span class="val">100%</span><span class="lab">Encryption</span></div>
+            <div class="stat"><span class="val">0ms</span><span class="lab">Latency</span></div>
+          </div>
+          <div class="project-footer">
+            <div class="tech-icons">
+              <i class="fas fa-shield-alt"></i><i class="fas fa-user-lock"></i><i class="fas fa-network-wired"></i>
+            </div>
+            <a href="404.html" class="view-project">Secure Audit <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="project-image">
+          <img src="assets/digitalcustody.webp" alt="Cybersecurity">
+          <div class="image-glow"></div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card reveal left">
+        <div class="project-image">
+          <img src="assets/secureinfra.webp" alt="Cloud Migration">
+          <div class="image-glow"></div>
+        </div>
+        <div class="project-info">
+          <span class="tech-tag">CLOUD & DATA</span>
+          <h3>Global Cloud Migration</h3>
+          <p>Seamless transition of legacy enterprise systems to distributed multi-cloud architectures without downtime.
+          </p>
+          <div class="project-stats">
+            <div class="stat"><span class="val">40PB</span><span class="lab">Data Moved</span></div>
+            <div class="stat"><span class="val">60%</span><span class="lab">Cost Saved</span></div>
+          </div>
+          <div class="project-footer">
+            <div class="tech-icons">
+              <i class="fas fa-cloud-upload-alt"></i><i class="fas fa-server"></i><i class="fas fa-database"></i>
+            </div>
+            <a href="404.html" class="view-project">Cloud Map <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project-card reveal right">
+        <div class="project-info">
+          <span class="tech-tag">FINTECH</span>
+          <h3>Nexus Financial Hub</h3>
+          <p>Secure, high-frequency fintech platform optimized for sub-millisecond global transactions and analytics.
+          </p>
+          <div class="project-stats">
+            <div class="stat"><span class="val">$2B+</span><span class="lab">Processed</span></div>
+            <div class="stat"><span class="val">0.01ms</span><span class="lab">Response</span></div>
+          </div>
+          <div class="project-footer">
+            <div class="tech-icons">
+              <i class="fas fa-chart-line"></i><i class="fas fa-coins"></i><i class="fas fa-wallet"></i>
+            </div>
+            <a href="404.html" class="view-project">Platform View <i class="fas fa-chevron-right"></i></a>
+          </div>
+        </div>
+        <div class="project-image">
+          <img src="assets/hubmarket.webp" alt="Fintech Hub">
+          <div class="image-glow"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="why-us">
+    <h2 class="section-title reveal">Why Choose Stackly?</h2>
+    <div class="grid">
+      <div class="feature-card reveal">
+        <i class="fas fa-shield-alt"></i>
+        <h3>Security First</h3>
+        <p>We prioritize the security of your data and systems above all else.</p>
+      </div>
+      <div class="feature-card reveal">
+        <i class="fas fa-bolt"></i>
+        <h3>High Performance</h3>
+        <p>Our solutions are optimized for speed and efficiency under heavy load.</p>
+      </div>
+      <div class="feature-card reveal">
+        <i class="fas fa-headset"></i>
+        <h3>24/7 Support</h3>
+        <p>Round-the-clock technical support to keep your operations running.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2 class="section-title reveal">What Our Clients Say</h2>
+    <div class="grid">
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </div>
+        <p>"Stackly transformed our business operations. Their AI solutions are top-notch and saved us countless hours."
+        </p>
+        <div class="client-info">
+          <h4>John Doe</h4>
+          <span>CEO, TechFlow</span>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </div>
+        <p>"The team at Stackly is professional, responsive, and highly skilled. Their web development work is
+          exceptional."</p>
+        <div class="client-info">
+          <h4>Sarah Smith</h4>
+          <span>CTO, InnovateX</span>
+        </div>
+      </div>
+      <div class="testimonial-card reveal">
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+            class="fas fa-star"></i>
+        </div>
+        <p>"Highly recommend Stackly for any enterprise looking to modernize their infrastructure. Reliable, secure and stable."
+        </p>
+        <div class="client-info">
+          <h4>Mike Johnson</h4>
+          <span>Founder, CloudScale</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </section>
+
+  <section class="innovation-lab reveal">
+    <div class="innovation-bg">
+      <div class="particles" id="particles"></div>
+    </div>
+    <div class="innovation-header">
+      <h2 class="section-title">Innovation Lab</h2>
+      <p>Shaping the technological landscape of the future through radical research and development.</p>
+    </div>
+    <div class="innovation-container">
+      <div class="timeline-v-line"></div>
+
+      <div class="innovation-grid">
+        <!-- Item 1 -->
+        <div class="innovation-item reveal">
+          <div class="innovation-dot"></div>
+          <div class="innovation-card">
+            <div class="badge">COMING SOON</div>
+            <div class="icon"><i class="fas fa-atom"></i></div>
+            <h3>Quantum Security</h3>
+            <p>Post-quantum encryption protocols to secure critical data against future computing power.</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 45%;"></div>
+            </div>
+            <span class="status">Development: 45%</span>
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="innovation-item reveal">
+          <div class="innovation-dot"></div>
+          <div class="innovation-card">
+            <div class="badge">COMING SOON</div>
+            <div class="icon"><i class="fas fa-brain"></i></div>
+            <h3>Neural Cloud</h3>
+            <p>Next-gen cloud computing nodes integrated directly with neural processing units for instant AI training.
+            </p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 30%;"></div>
+            </div>
+            <span class="status">Development: 30%</span>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="innovation-item reveal">
+          <div class="innovation-dot"></div>
+          <div class="innovation-card">
+            <div class="badge">COMING SOON</div>
+            <div class="icon"><i class="fas fa-city"></i></div>
+            <h3>Smart City OS</h3>
+            <p>Centralized operating system for urban environments, optimizing power, traffic, and public services via
+              AI.</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 60%;"></div>
+            </div>
+            <span class="status">Development: 60%</span>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="innovation-item reveal">
+          <div class="innovation-dot"></div>
+          <div class="innovation-card">
+            <div class="badge">COMING SOON</div>
+            <div class="icon"><i class="fas fa-vr-cardboard"></i></div>
+            <h3>Metaverse Workspace</h3>
+            <p>Hyper-realistic virtual collaborative environments for global decentralized engineering teams.</p>
+            <div class="progress-container">
+              <div class="progress-bar" style="width: 25%;"></div>
+            </div>
+            <span class="status">Development: 25%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta reveal">
+    <div class="cta-content">
+      <h2>Ready to Transform Your Business?</h2>
+      <p>Join 200+ global brands that trust Stackly for their IT Tech.</p>
+      <form class="subscribe-form">
+        <input type="email" id="cta-email" placeholder="Enter your email address" required>
+        <button class="cta" id="cta-submit">Get Started</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col about">
+        <a href="index.html" class="footer-logo">
+          <img src="assets/logod.webp" alt="Stackly Logo">
+        </a>
+        <p>Leading the way in digital innovation. We provide cutting-edge IT solutions to help businesses scale, secure,
+          and succeed in the modern era.</p>
+        <div class="social-links">
+          <a href="404.html"><i class="fab fa-facebook-f"></i></a>
+          <a href="404.html"><i class="fab fa-linkedin-in"></i></a>
+          <a href="404.html"><i class="fab fa-twitter"></i></a>
+          <a href="404.html"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="404.html">About Us</a></li>
+          <li><a href="404.html">Services</a></li>
+          <li><a href="404.html">Careers</a></li>
+          <li><a href="404.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Our Services</h3>
+        <ul>
+          <li><a href="404.html">Web Development</a></li>
+          <li><a href="404.html">AI Automation</a></li>
+          <li><a href="404.html">Cloud Solutions</a></li>
+          <li><a href="404.html">Cyber Security</a></li>
+          <li><a href="404.html">Data Analytics</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col contact">
+        <h3>Contact Info</h3>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <p>Email Address</p>
+            <span>info@thestackly.com</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <p>Phone Number</p>
+            <span>+91 234567890</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <p>Office Location</p>
+            <span>Salem, Tamil Nadu, India</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <p>&copy; 2026 Stackly. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="404.html">Privacy Policy</a>
+          <a href="404.html">Terms of Service</a>
+          <a href="404.html">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
