@@ -90,16 +90,26 @@ if (statsSection) {
 // CTA VALIDATION
 const ctaSubmit = document.getElementById("cta-submit");
 const ctaEmail = document.getElementById("cta-email");
+const emailErrorMessage = document.getElementById("email-error-message");
+
+const validateEmail = (email) => {
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+};
 
 if (ctaSubmit && ctaEmail) {
-  ctaSubmit.addEventListener("click", () => {
-    if (ctaEmail.value.trim() === "") {
-      ctaEmail.placeholder = "Please enter your email id!";
+  ctaSubmit.addEventListener("click", (e) => {
+    e.preventDefault();
+    const email = ctaEmail.value.trim();
+    
+    if (email === "" || !validateEmail(email)) {
       ctaEmail.classList.add("error");
+      emailErrorMessage.textContent = "type a valid id";
+      emailErrorMessage.classList.add("show");
       
       setTimeout(() => {
-        ctaEmail.placeholder = "Enter your email address";
         ctaEmail.classList.remove("error");
+        emailErrorMessage.classList.remove("show");
       }, 3000);
     } else {
       window.location.href = "404.html";

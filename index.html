@@ -434,7 +434,10 @@
       <h2>Ready to Transform Your Business?</h2>
       <p>Join 200+ global brands that trust Stackly for their IT Tech.</p>
       <form class="subscribe-form">
-        <input type="email" id="cta-email" placeholder="Enter your email address" required>
+        <div class="email-input-wrapper">
+          <input type="email" id="cta-email" placeholder="Enter your email address" required>
+          <span class="error-message" id="email-error-message"></span>
+        </div>
         <button class="cta" id="cta-submit">Get Started</button>
       </form>
     </div>
